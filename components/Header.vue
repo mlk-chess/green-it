@@ -1,11 +1,11 @@
 <template>
      <header>
         <nav>
-            <a href="" class="brand">GREEN CAR</a>
+            <router-link to="/">Green CAR</router-link>
             <ul class="menu">
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Modèle Green X</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><router-link to="/">Green CAR</router-link></li>
+                <li><router-link to="/">Green CAR</router-link></li>
+                <li><router-link to="/">Contact</router-link></li>
             </ul>
 
             <div class="menu-btn">
@@ -40,8 +40,9 @@ nav, li {
 }
 
 nav {
-    padding: 1.5em 2.5em;
+    padding: 0.5em 2.5em;
     position: relative;
+    border-bottom:1px solid #eee;
 }
 
 nav li {
@@ -58,7 +59,7 @@ nav a:hover{
 header {
     height: 100vh;
     min-height: 40em;
-    background-image: url("./assets/img/header.webp");
+    background-image: url("./assets/img/header.avif");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -68,7 +69,7 @@ header {
 header::before{
     content:'';
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     height: 100%;
 }
