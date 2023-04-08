@@ -17,6 +17,12 @@ export default defineNuxtConfig({
     css:[
         "@/assets/css/global.css",
     ],
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
+    },
     modules: [
         '@nuxt/image-edge',
     ]
