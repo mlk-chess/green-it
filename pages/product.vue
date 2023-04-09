@@ -1,11 +1,10 @@
 <template>
-    <div>
-    </div>
+    <HeaderProduct />
+    <DetailProduct />
 </template>
 
 <script setup>
-
-import Header from '../components/Header.vue';
-import Products from '../components/Products.vue';
+import HeaderProduct from '../components/HeaderProduct.vue';
+import DetailProduct from '../components/DetailProduct.vue';
 
 </script>
