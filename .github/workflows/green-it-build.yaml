@@ -36,8 +36,20 @@ jobs:
         env:
           CI: true
           SITE_URL: ${{ inputs.site-url }}
-        run: npm run generate
+        run: npm ci
 
+      - name: Build app
+        env:
+          CI: true
+          SITE_URL: ${{ inputs.site-url }}
+        run: npm run build
+
+      - name: generate static app
+        env:
+          CI: true
+          SITE_URL: ${{ inputs.site-url }}
+        run: npm run generate
+        
 # Please do not touch the following action
       - name: Store deployment content
         uses: ionos-deploy-now/artifact-action@v1
