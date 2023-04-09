@@ -36,27 +36,18 @@ jobs:
         env:
           CI: true
           SITE_URL: ${{ inputs.site-url }}
-        run: npm ci
+        run: |
+          npm ci
+          npm run build
+          npm run generate
 
-      - name: Build app
-        env:
-          CI: true
-          SITE_URL: ${{ inputs.site-url }}
-        run: npm run build
-
-      - name: generate static app
-        env:
-          CI: true
-          SITE_URL: ${{ inputs.site-url }}
-        run: npm run generate
-        
 # Please do not touch the following action
       - name: Store deployment content
         uses: ionos-deploy-now/artifact-action@v1
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
-          project-id: 6c7a982b-d1ec-4aab-9e1f-5be2b8362b50
+          project-id: 07a03621-8d2e-48a2-b99a-8a9c74e50f2b
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
