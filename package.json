@@ -9,9 +9,13 @@
   },
   "devDependencies": {
     "@nuxt/image-edge": "^1.0.0-28008586.381b906",
-    "nuxt": "^3.3.1"
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.3.1",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "ipx": "^1.0.0"
   }
 }

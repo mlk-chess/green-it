@@ -1,28 +1,32 @@
 <template>
-     <header>
+    <header>
         <nav>
             <router-link to="/">Green CAR</router-link>
             <ul class="menu">
                 <li><router-link to="/">Green CAR</router-link></li>
-                <li><router-link to="/">Green CAR</router-link></li>
+                <li>
+                    <router-link to="/product">Product</router-link>
+                </li>
                 <li><router-link to="/">Contact</router-link></li>
             </ul>
 
             <div class="menu-btn">
-                <i class="fas fa-bars"/>
+                <i class="fas fa-bars" />
             </div>
         </nav>
 
         <div class="header-body">
             <div>
-                <h1>Test</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, perferendis est, dolore odio autem praesentium ipsum, quia commodi unde dolor laborum voluptate dignissimos aut quas amet eos aliquid. Iure, ad. </p>
+                <h1 class="text-3xl">Test</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, perferendis est, dolore odio autem
+                    praesentium ipsum, quia commodi unde dolor laborum voluptate dignissimos aut quas amet eos aliquid.
+                    Iure, ad. </p>
                 <div>
                     <button class="btn-car">Découvrez le modèle Green X</button>
                 </div>
             </div>
         </div>
-     </header>
+    </header>
 </template>
 
 
@@ -33,16 +37,17 @@ a {
 }
 
 
-nav, li {
+nav,
+li {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav {
-    padding: 0.5em 2.5em;
+    padding: 1em 5em;
     position: relative;
-    border-bottom:1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 nav li {
@@ -51,8 +56,8 @@ nav li {
     text-align: center;
 }
 
-nav a:hover{
-    color:#eee;
+nav a:hover {
+    color: #eee;
 
 }
 
@@ -66,15 +71,15 @@ header {
     position: relative;
 }
 
-header::before{
-    content:'';
+header::before {
+    content: '';
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     height: 100%;
 }
 
-.header-body{
+.header-body {
     padding: 2.5em;
     height: 100%;
     display: flex;
@@ -82,21 +87,24 @@ header::before{
     z-index: 1;
     color: #eee;
 }
-.header-body p{
+
+.header-body p {
     max-width: 30em;
     text-align: justify;
 }
+
 .menu-btn {
     display: none;
 }
 
-.btn-car{
+.btn-car {
     padding: 0.7em 3em 0.7em 3em;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     background-color: #eee;
     font-family: 'Montserrat';
-    margin-top:1em;
+    margin-top: 1em;
+    color: black
 }
 </style>
