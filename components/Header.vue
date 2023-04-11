@@ -11,7 +11,7 @@
             </ul>
 
             <div class="menu-btn">
-                <i class="fas fa-bars" />
+                <img src="@/assets/img/burger.svg" alt="Icône burger pour barre de navigation">
             </div>
         </nav>
 

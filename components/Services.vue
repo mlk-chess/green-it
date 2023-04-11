@@ -3,16 +3,25 @@
         <h2 class="title">Nos services</h2>
         <div class="infos">
             <div class="info">
+                <div class="svg">
+                    <img src="@/assets/img/headset.svg" alt="icone d'accompagnement">
+                </div>
                 <h3>Un accompagnement à chaque instant</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
 
             <div class="info">
+               <div class="svg">
+                    <img src="@/assets/img/truck.svg" alt="icone de livrison">
+                </div>
                 <h3>Livraison partout en France</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
 
             <div class="info">
+                <div class="svg">
+                    <img src="@/assets/img/sale.svg" alt="icone d'offre">
+                </div>
                 <h3>Profitez des offres</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
@@ -44,6 +53,14 @@
     flex-wrap: wrap;
     gap: 2em;
     margin-top: 50px;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .info{
