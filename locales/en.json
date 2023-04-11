@@ -1,0 +1,32 @@
+{
+    "hello": "Hello, {name}!",
+    "language": "Language",
+    "callouts": [
+        {
+            "name": "Immersive Sound",
+            "description": "A 960-watt, 22-speaker audio system with Road Noise Active Noise Cancellation provides an immersive listening experience and studio-quality sound.",
+            "imageSrc": "/car-interior1.jpeg",
+            "imageAlt": "car interior 1 immersive sound",
+            "href": "#"
+        },
+        {
+            "name": "Stay Connected",
+            "description": "Instantly connect your devices with Bluetooth supporting multiple simultaneous connections, or quickly charge your devices by taking advantage of the 36W wireless and USB-C charging.",
+            "imageSrc": "/car-interior2.jpeg",
+            "imageAlt": "Car interior 2 devices",
+            "href": "#"
+        },
+        {
+            "name": "Elegant Style",
+            "description": "Iconic lines combined with elegant modern proportions.",
+            "imageSrc": "/car-interior3.jpeg",
+            "imageAlt": "Beautiful car interior 3",
+            "href": "#"
+        }
+    ],
+    "interiortitle": "The interior of the future",
+    "autonomy": "Autonomy",
+    "travel": "Travel without limits",
+    "traveldesc": "With an estimated range of up to 634 kilometers and access to the world's largest and most powerful fast-charging network, you'll spend less time charging and more time on the road.",
+    "buy": "Buy"
+}

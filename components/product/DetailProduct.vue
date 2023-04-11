@@ -2,23 +2,55 @@
     <section>
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-200 text-center">L'intérieur du futur</h2>
+                <h2 class="text-2xl font-bold text-gray-900 text-center">{{ $t('interiortitle') }}</h2>
 
-                <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0 dark:text-white">
-                    <div v-for="callout in callouts" :key="callout.name" class="group relative">
+                <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+                    <div class="group relative">
                         <div
                             class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                            <nuxt-img format="avif" :src="callout.imageSrc" :alt="callout.imageAlt"
+                            <nuxt-img format="avif" :src="$t('callouts.0.imageSrc')" :alt="$t('callouts.0.imageAlt')"
                                 class="h-full w-full object-cover object-center"></nuxt-img>
                         </div>
                         <div class="">
-                            <h3 class="mt-6 text-sm text-gray-500 dark:text-gray-300">
-                                <a :href="callout.href">
+                            <h3 class="mt-6 text-sm text-gray-500">
+                                <a :href="$t('callouts.0.href')">
                                     <span class="absolute inset-0" />
-                                    {{ callout.name }}
+                                    {{ $t('callouts.0.name') }}
                                 </a>
                             </h3>
-                            <p class="text-base font-semibold text-gray-900 dark:text-white">{{ callout.description }}</p>
+                            <p class="text-base font-semibold text-gray-900">{{ $t('callouts.0.description') }}</p>
+                        </div>
+                    </div>
+                    <div class="group relative">
+                        <div
+                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                            <nuxt-img format="avif" :src="$t('callouts.1.imageSrc')" :alt="$t('callouts.1.imageAlt')"
+                                class="h-full w-full object-cover object-center"></nuxt-img>
+                        </div>
+                        <div class="">
+                            <h3 class="mt-6 text-sm text-gray-500">
+                                <a :href="$t('callouts.1.href')">
+                                    <span class="absolute inset-0" />
+                                    {{ $t('callouts.1.name') }}
+                                </a>
+                            </h3>
+                            <p class="text-base font-semibold text-gray-900">{{ $t('callouts.1.description') }}</p>
+                        </div>
+                    </div>
+                    <div class="group relative">
+                        <div
+                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                            <nuxt-img format="avif" :src="$t('callouts.2.imageSrc')" :alt="$t('callouts.2.imageAlt')"
+                                class="h-full w-full object-cover object-center"></nuxt-img>
+                        </div>
+                        <div class="">
+                            <h3 class="mt-6 text-sm text-gray-500">
+                                <a :href="$t('callouts.2.href')">
+                                    <span class="absolute inset-0" />
+                                    {{ $t('callouts.2.name') }}
+                                </a>
+                            </h3>
+                            <p class="text-base font-semibold text-gray-900">{{ $t('callouts.2.description') }}</p>
                         </div>
                     </div>
                 </div>
