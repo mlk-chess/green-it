@@ -11,7 +11,7 @@
             </ul>
 
             <div class="menu-btn">
-                <img src="@/assets/img/burger.svg" alt="">
+                <img src="@/assets/img/burger.svg" alt="Icône burger pour barre de navigation">
             </div>
         </nav>
 
