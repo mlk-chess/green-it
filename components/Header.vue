@@ -7,7 +7,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, perferendis est, dolore odio autem
                     praesentium ipsum, quia commodi unde dolor laborum voluptate dignissimos aut quas amet eos aliquid.
                     Iure, ad. </p>
-                <div>
+                <div class="mt-5">
                     <button class="btn-car">Découvrez le modèle Green X</button>
                 </div>
             </div>
@@ -55,13 +55,13 @@ header::before {
 }
 
 .btn-car {
-    padding: 0.7em 3em 0.7em 3em;
-    border-radius: 5px;
+
+    padding: 1.3em 3em 1.3em 3em;
     border: none;
     cursor: pointer;
     background-color: #eee;
+    color: #000;
     font-family: 'Montserrat';
-    margin-top: 1em;
-    color: black
+
 }
 </style>
