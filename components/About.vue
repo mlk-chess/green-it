@@ -7,7 +7,7 @@
         </div>
         
         <div class="img-container">
-            <nuxt-img format="avif" lazy="loading" class="img-container" src="/header.jpg"></nuxt-img>
+            <nuxt-img format="avif" lazy="loading" class="img-container" src="/header.jpg" alt="une voiture rouge en pleine vitesse"></nuxt-img>
         </div>
 
     </section>
