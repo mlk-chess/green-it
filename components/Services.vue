@@ -4,7 +4,7 @@
         <div class="infos">
             <div class="info">
                 <div class="svg">
-                    <img src="@/assets/img/headset.svg" alt="">
+                    <img src="@/assets/img/headset.svg" alt="icone d'accompagnement">
                 </div>
                 <h3>Un accompagnement à chaque instant</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -12,7 +12,7 @@
 
             <div class="info">
                <div class="svg">
-                    <img src="@/assets/img/truck.svg" alt="">
+                    <img src="@/assets/img/truck.svg" alt="icone de livrison">
                 </div>
                 <h3>Livraison partout en France</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -20,7 +20,7 @@
 
             <div class="info">
                 <div class="svg">
-                    <img src="@/assets/img/sale.svg" alt="">
+                    <img src="@/assets/img/sale.svg" alt="icone d'offre">
                 </div>
                 <h3>Profitez des offres</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
