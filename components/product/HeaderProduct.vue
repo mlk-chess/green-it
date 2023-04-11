@@ -9,7 +9,7 @@
                 <!-- <p class="mt-6 text-lg leading-8 text-gray-300">Anim aute.</p> -->
                 <button
                     class="mt-20 bg-transparent hover:bg-gray-300 text-white font-semibold hover:text-gray py-2 px-4 border border-gray-500 hover:border-transparent rounded">
-                    Acheter
+                    {{ $t('buy') }}
                 </button>
             </div>
         </div>

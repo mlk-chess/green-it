@@ -1,11 +1,9 @@
 <template>
     <section class="flex flex-row-reverse sm:flew-col dark:text-white">
         <div class="flex flex-col flex-wrap ml-5 mt-10 w-4/12 video-content">
-            <span class="text-lg">Autonomie</span>
-            <span class="text-xl subpixel-antialiased mb-8 font-bold">Voyager sans limite</span>
-            <p class="text-sm">Avec une autonomie estimée pouvant atteindre 634 kilomètres et un accès au réseau de recharge
-                rapide le plus vaste et le plus puissant au monde, vous passerez moins de temps à recharger et plus de temps
-                sur la route.</p>
+            <span class="text-lg">{{ $t('autonomy') }}</span>
+            <span class="text-xl subpixel-antialiased mb-8 font-bold">{{ $t('travel') }}</span>
+            <p class="text-sm">{{ $t('traveldesc') }}</p>
         </div>
         <div class="w-8/12 video">
             <video controls>
