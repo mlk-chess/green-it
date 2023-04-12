@@ -7,7 +7,7 @@
                     <img src="@/assets/img/headset.svg" alt="icone d'accompagnement">
                 </div>
                 <h3>Un accompagnement à chaque instant</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Notre équippe est à votre disposition 24/24h .</p>
             </div>
 
             <div class="info">
@@ -15,7 +15,7 @@
                     <img src="@/assets/img/truck.svg" alt="icone de livrison">
                 </div>
                 <h3>Livraison partout en France</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Profitez de notre système de livraison personnalisé.</p>
             </div>
 
             <div class="info">
@@ -23,13 +23,13 @@
                     <img src="@/assets/img/sale.svg" alt="icone d'offre">
                 </div>
                 <h3>Profitez des offres</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Ne ratez aucune offres concernant tous nos modèles.</p>
             </div>
         </div>
 
         <div class="infos-btn">
-            <button class="btn">Découvrez le modèle Green X</button>
-            <button class="btn">Découvrez le modèle Green X</button>
+            <button class="btn">Consultez les stocks</button>
+            <button class="btn">Configurez et commandez</button>
         </div>
     </section>
 </template>

@@ -3,10 +3,8 @@
         <Navbar/>
         <div class="header-body">
             <div>
-                <h1 class="text-3xl">Test</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, perferendis est, dolore odio autem
-                    praesentium ipsum, quia commodi unde dolor laborum voluptate dignissimos aut quas amet eos aliquid.
-                    Iure, ad. </p>
+                <h1 class="text-3xl">Green X</h1>
+                <p class="mt-2">Profitez et découvrez en exclusivité de notre nouveau modèle écologique.</p>
                 <div class="mt-5">
                     <button class="btn-car">Découvrez le modèle Green X</button>
                 </div>
