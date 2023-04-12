@@ -17,7 +17,7 @@
 <style scoped>
 section {
     min-height: 25em;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
