@@ -3,8 +3,9 @@
         <Header/>
         <Products/>
         <About/>
-        <Services/>
         <Section/>
+        <Services/>
+        <Newsletter/>
     </div>
 </template>
 
