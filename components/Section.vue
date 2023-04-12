@@ -17,7 +17,7 @@
 <style scoped>
 section {
     min-height: 25em;
-    background-image: url("./assets/img/test.jpg");
+    background-image: url("./assets/img/test.avif");
     background-size: cover;
     background-position: center;
     display: flex;
