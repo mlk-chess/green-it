@@ -2,11 +2,9 @@
     <section>
         <div class="header-body">
             <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, perferendis est, dolore odio autem
-                    praesentium ipsum, quia commodi unde dolor laborum voluptate dignissimos aut quas amet eos aliquid.
-                    Iure, ad. </p>
+                <p>Grâce à nos models GREEN combinez puissance et écologie. Vous pouvez dès maintenant faire le choix de changer le monde.</p>
                 <div class="mt-5 btn-block">
-                    <button class="btn-car">Découvrez le modèle Green X</button>
+                    <button class="btn-car">En savoir plus</button>
                 </div>
             </div>
         </div>
