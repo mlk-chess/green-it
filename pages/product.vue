@@ -1,9 +1,11 @@
 <template>
-    <Navbar />
-    <HeaderProduct />
-    <VideoProduct />
-    <DetailProduct />
-    <InfoProduct/>
+    <div>
+        <Navbar />
+        <HeaderProduct />
+        <DetailProduct />
+        <InfoProduct />
+        <VideoProduct />
+    </div>
 </template>
 
 <script setup>

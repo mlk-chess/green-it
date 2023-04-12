@@ -1,64 +1,63 @@
 <template>
-    <section class="products">
-        <h2 class="title">Découvrez nos modèles GREEN</h2>
-        <div class="cars">
-            <div class="card">
-                <nuxt-img loading="lazy" format="avif" src="/car1.jpg" alt="Présentation de la voiture green X"/>
-                <h2>Green X</h2>
-                
+    <section class="services bg-white dark:bg-gray-900">
+        <h2 class="title">Nos offres</h2>
+        <div class="products">
+            <div class="m-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <nuxt-img format="avif" class="rounded-t-lg" src="/car1.jpg" alt="Présentation de la voiture Green X"></nuxt-img>
+                <div class="p-5">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN X</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">à partir de 190€/mois</p>
+                     <button class="btn-car"><router-link to="/product">Découvrez le modèle Green X</router-link></button>
+                </div>
             </div>
-             <div class="card">
-                <nuxt-img loading="lazy" format="avif" src="/car2.jpg" alt="Présentation de la voiture green S"/>
-                <h2>Green S</h2>
+
+            <div class="m-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <nuxt-img format="avif" class="rounded-t-lg img" src="/car2.jpg" alt="Présentation de la voiture Green Y"></nuxt-img>
+                <div class="p-5">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN Y</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">à partir de 190€/mois</p>
+                    <button class="btn-car"><router-link to="/product">Découvrez le modèle Green X</router-link></button>
+                </div>
             </div>
-             <div class="card">
-                <nuxt-img loading="lazy" format="avif" src="/car3.jpg" alt="Présentation de la voiture green TTR"/>
-                <h2>Green TTR</h2>
+            <div class="m-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <nuxt-img format="avif" class="rounded-t-lg" src="/car1.jpg" alt="Présentation de la voiture Green S"></nuxt-img>
+                <div class="p-5">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN S</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">à partir de 190€/mois</p>
+                    <button class="btn-car"><router-link to="/product">Découvrez le modèle Green X</router-link></button>
+                  
+                </div>
             </div>
+            
         </div>
     </section>
+
+    
 </template>
 <style scoped>
 
-.card{
-    flex: 1 1 17rem;
-    position: relative;
-    height: 200px;
-}
+.btn-car {
+    
+    padding: 1em 2em 1em 2em;
+    border: none;
+    cursor: pointer;
+    background-color: #0074e8;
+    color: #eee;
+    font-family: 'Montserrat';
 
-.card img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 5px;
 }
-
-.card h2 {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    font-size: 1rem;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 0.5rem;
-    border-radius: 5px;
+.services{
+    padding: 2.5em;
+}
+.title{
+    padding-bottom: 3em;
 }
 
 .products{
-    padding: 2.5em;
-}
-
-.title{
-    border-bottom: 2px solid #eee;
-    width: 100%;
-    padding-bottom: 0.5em;
-   
-}
-
-.cars{
-    margin-top: 4em;
+    
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
 }
 
 </style>
