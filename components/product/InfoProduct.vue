@@ -1,20 +1,93 @@
 <template>
-    <section class="bg-white dark:bg-gray-900">
-    <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-        <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
-            <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>
-                <dd class="font-light text-gray-500 dark:text-gray-400">developers</dd>
+    <section class="services">
+        <div class="title-info">
+            <h2 class="text-5xl mt-3 font-black">Un concentré d'émotion</h2>
+            <p class="p-5">Prenez place à bord de la PEUGEOT 208. Son poste de conduite de dernière génération et ses sièges avant dynamiques vous conduisent vers de nouvelles sensations. </p>
+        </div>
+        <div class="infos">
+            <div class="info">
+                <div class="svg">
+                    <img src="@/assets/img/headset.svg" alt="icone d'accompagnement">
+                </div>
+                <h3 class="font-bold">Un accompagnement à chaque instant</h3>
             </div>
-            <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-3xl md:text-4xl font-extrabold">1B+</dt>
-                <dd class="font-light text-gray-500 dark:text-gray-400">contributors</dd>
+
+            <div class="info">
+               <div class="svg">
+                    <img src="@/assets/img/truck.svg" alt="icone de livrison">
+                </div>
+                <h3 class="font-bold">Livraison partout en France</h3>
             </div>
-            <div class="flex flex-col items-center justify-center">
-                <dt class="mb-2 text-3xl md:text-4xl font-extrabold">4M+</dt>
-                <dd class="font-light text-gray-500 dark:text-gray-400">organizations</dd>
+
+            <div class="info">
+                <div class="svg">
+                    <img src="@/assets/img/sale.svg" alt="icone d'offre">
+                </div>
+                <h3 class="font-bold">Profitez des offres</h3>
             </div>
-        </dl>
-    </div>
-</section>
+        </div>
+    </section>
 </template>
+
+
+
+<style scoped>
+
+
+.title-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title{
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5em;
+   
+}
+.services{
+    padding: 2.5em;
+    background-color: #eee;
+}
+.infos, .infos-btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 50px;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.info{
+    width: 20rem;
+}
+
+.info h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+}
+
+.info p {
+    text-align: center;
+}
+
+
+.btn{
+    padding: 1.3em 3em 1.3em 3em;
+    border: none;
+    cursor: pointer;
+    background-color: #0074e8;
+    color: #eee;
+    font-family: 'Montserrat';
+}
+</style>
