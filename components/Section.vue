@@ -2,9 +2,9 @@
     <section>
         <div class="header-body">
             <div>
-                <p>Grâce à nos models GREEN combinez puissance et écologie. Vous pouvez dès maintenant faire le choix de changer le monde.</p>
+                <p>{{ $t("i10") }}</p>
                 <div class="mt-5 btn-block">
-                    <button class="btn-car">En savoir plus</button>
+                    <button class="btn-car">{{ $t("i11") }}</button>
                 </div>
             </div>
         </div>

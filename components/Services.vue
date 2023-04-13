@@ -1,35 +1,35 @@
 <template>
-    <section class="services bg-gray-100 dark:bg-gray-900">
-        <h2 class="title">Nos services</h2>
+    <section class="services bg-gray-100 dark:bg-gray-900 dark:text-white">
+        <h2 class="title">{{$t("i12")}}</h2>
         <div class="infos">
             <div class="info">
                 <div class="svg">
                     <img src="@/assets/img/headset.svg" alt="icone d'accompagnement">
                 </div>
-                <h3>Un accompagnement à chaque instant</h3>
-                <p>Notre équippe est à votre disposition 24/24h .</p>
+                <h3>{{$t("i13")}}</h3>
+                <p>{{ $t("i14") }}</p>
             </div>
 
             <div class="info">
                <div class="svg">
                     <img src="@/assets/img/truck.svg" alt="icone de livrison">
                 </div>
-                <h3>Livraison partout en France</h3>
-                <p>Profitez de notre système de livraison personnalisé.</p>
+                <h3>{{$t("i15")}}</h3>
+                <p>{{$t("i16")}}</p>
             </div>
 
             <div class="info">
                 <div class="svg">
                     <img src="@/assets/img/sale.svg" alt="icone d'offre">
                 </div>
-                <h3>Profitez des offres</h3>
-                <p>Ne ratez aucune offres concernant tous nos modèles.</p>
+                <h3>{{$t("i17")}}</h3>
+                <p>{{$t("i18")}}</p>
             </div>
         </div>
 
         <div class="infos-btn">
-            <button class="btn">Consultez les stocks</button>
-            <button class="btn">Configurez et commandez</button>
+            <button class="btn">{{$t("i19")}}</button>
+            <button class="btn">{{ $t("i20") }}</button>
         </div>
     </section>
 </template>

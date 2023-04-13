@@ -4,9 +4,9 @@
         <div class="header-body">
             <div>
                 <h1 class="text-3xl">Green X</h1>
-                <p class="mt-2">Profitez et découvrez en exclusivité de notre nouveau modèle écologique.</p>
+                <p class="mt-2">{{ $t("i1") }}</p>
                 <div class="mt-5">
-                    <button class="btn-car">Découvrez le modèle Green X</button>
+                    <button class="btn-car">{{ $t("i2") }}</button>
                 </div>
             </div>
         </div>

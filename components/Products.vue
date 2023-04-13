@@ -1,14 +1,14 @@
 <template>
     <section class="services bg-gray-100 dark:bg-gray-900">
-        <h2 class="title">Nos offres</h2>
+        <h2 class="title">{{ $t("i3") }}</h2>
         <div class="products">
             <div class="m-2 max-w-sm rounded-lg">
                   <div style="min-height:15rem">
                 <nuxt-img format="avif" class="rounded-t-lg" src="/featured3.png" alt="Présentation de la voiture Green X"></nuxt-img></div>
                 <div class="p-5">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN X</h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">à partir de 190€/mois</p>
-                     <button class="btn-car"><router-link to="/product">Découvrez le modèle Green X</router-link></button>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ $t("i4") }}</p>
+                     <button class="btn-car"><router-link to="/product">{{ $t("i5") }}</router-link></button>
                 </div>
             </div>
 
@@ -18,8 +18,8 @@
                 </div>
                 <div class="p-5">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN Y</h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">à partir de 190€/mois</p>
-                    <button class="btn-car"><router-link to="/product">Découvrez le modèle Green X</router-link></button>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ $t("i4") }}</p>
+                    <button class="btn-car"><router-link to="/product">{{ $t("i5") }}</router-link></button>
                 </div>
             </div>
             <div class="m-2 max-w-sm rounded-lg">
@@ -27,8 +27,8 @@
                 <nuxt-img format="avif" class="rounded-t-lg" src="/featured2.png" alt="Présentation de la voiture Green S"></nuxt-img></div>
                 <div class="p-5">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN S</h5>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">à partir de 190€/mois</p>
-                    <button class="btn-car"><router-link to="/product">Découvrez le modèle Green X</router-link></button>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ $t("i4") }}</p>
+                    <button class="btn-car"><router-link to="/product">{{ $t("i5") }}</router-link></button>
                   
                 </div>
             </div>

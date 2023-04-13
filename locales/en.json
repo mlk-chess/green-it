@@ -35,7 +35,7 @@
     "subject": "Subject",
     "sendmsg": "Send message",
     "yourmessage": "Your message",
-    "faq" : "Frequently asked questions",
+    "faq": "Frequently asked questions",
     "questions": {
         "question1": {
             "question": "What do you mean by \"Figma assets\"?",
@@ -75,5 +75,25 @@
     "infop3": "3D digital combination",
     "infop4": "Dynamic front seats",
     "discover": "Discover the offer",
-    "book": "Book a test drive"
+    "book": "Book a test drive",
+    "i1": "Enjoy and discover exclusively our new ecological model.",
+    "i2": "Discover the Green X model",
+    "i3": "Our offers",
+    "i4": "Starting from €190/month",
+    "i5": "Discover the Green X model",
+    "i6": "100% electric",
+    "i7": "Easy to charge, extraordinarily pleasant to drive, our 100% electric models combine environmentally friendly energy, exceptional driving precision, quality finishes, and dynamic design.",
+    "i8": "Zero emissions",
+    "i9": "Fifteen years of research have led to the development of an electric motor that emits no CO2. Our goal is to make the world a cleaner place, while giving your mobility unparalleled luxury and character. As you master an ultra-advanced engine, the world becomes a cleaner place.",
+    "i10": "Thanks to our GREEN models, combine power and ecology. You can now choose to change the world.",
+    "i11": "Learn more",
+    "i12": "Our services",
+    "i13": "Support at your fingertips",
+    "i14": "Our team is available 24/7.",
+    "i15": "Delivery everywhere in France",
+    "i16": "Enjoy our personalized delivery system.",
+    "i17": "Take advantage of our offers",
+    "i18": "Don't miss any offers for all our models.",
+    "i19": "Check the stocks",
+    "i20": "Configure and order"
 }
