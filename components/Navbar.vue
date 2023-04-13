@@ -2,7 +2,8 @@
 <div class="topnav" id="myTopnav">
   <router-link to="/"><span class="link active">GREEN CAR</span></router-link>
   <router-link to="/product"><span class="link">Green X</span></router-link>
-  <span class="link"><router-link to="/contact">Contact</router-link></span>
+  <router-link to="/contact"><span class="link">Contact</span></router-link>
+  
 
   <select id="locale-select" v-model="$i18n.locale"
       class="appearance-none bg-white border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 m-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
