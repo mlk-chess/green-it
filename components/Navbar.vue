@@ -6,7 +6,7 @@
             <li>
                 <router-link to="/product">Product</router-link>
             </li>
-            <li><router-link to="/">Contact</router-link></li>
+            <li><router-link to="/contact">Contact</router-link></li>
             <li>
                 <form>
                     <select id="locale-select" v-model="$i18n.locale"

@@ -28,5 +28,46 @@
     "autonomy": "Autonomie",
     "travel": "Voyager sans limite",
     "traveldesc": "Avec une autonomie estimée pouvant atteindre 634 kilomètres et un accès au réseau de recharge rapide le plus vaste et le plus puissant au monde, vous passerez moins de temps à recharger et plus de temps sur la route.",
-    "buy": "Acheter"
+    "buy": "Acheter",
+    "contactus": "Nous contacter",
+    "formcontact1": "Vous avez un problème technique ? Vous souhaitez nous faire part de vos commentaires sur une fonctionnalité bêta ? Vous avez besoin de détails sur notre plan Business ? Faites-le nous savoir.",
+    "youremail": "Votre adresse e-mail",
+    "subject": "Objet",
+    "sendmsg": "Envoyer le message",
+    "yourmessage": "Votre message",
+    "faq": "Questions fréquemment posées",
+    "questions": {
+        "question1": {
+            "question": "Que voulez-vous dire par 'Figma assets' ?",
+            "answer": "Vous aurez accès au téléchargement du projet Figma complet, comprenant toutes les pages, les composants, les pages adaptatives, ainsi que les icônes, illustrations et images incluses dans les écrans."
+        },
+        "question2": {
+            "question": "Que signifie exactement 'accès à vie' ?",
+            "answer": "Une fois que vous avez acheté l'un ou les deux packages de conception et de code, vous aurez accès gratuitement à toutes les futures mises à jour basées sur la feuille de route."
+        },
+        "question3": {
+            "question": "Comment fonctionne le support ?",
+            "answer": "Nous sommes conscients de l'importance d'un support bien qualifié, c'est pourquoi nous avons décidé que le support ne sera fourni que par les auteurs qui ont réellement travaillé sur ce projet. N'hésitez pas à nous contacter et nous vous aiderons dès que possible."
+        },
+        "question4": {
+            "question": "Je veux construire plus d'un projet. Est-ce autorisé ?",
+            "answer": "Vous pouvez utiliser Windster pour un nombre illimité de projets, qu'il s'agisse d'un site Web personnel, d'une application SaaS ou d'un site Web pour un client. Tant que vous ne construisez pas un produit qui rivalise directement avec Windster en tant que kit d'interface utilisateur, thème ou modèle, c'est bon. Pour plus d'informations, consultez la licence."
+        },
+        "question5": {
+            "question": "Que comprend les 'mises à jour gratuites' ?",
+            "answer": "Les mises à jour gratuites qui seront fournies sont basées sur la feuille de route que nous avons établie pour ce projet. Il est également possible que nous fournissions des mises à jour supplémentaires en dehors de la feuille de route."
+        },
+        "question6": {
+            "question": "Que comprend la version gratuite ?",
+            "answer": "La version gratuite de Windster comprend des directives de style minimal, des variantes de composants et une page de tableau de bord avec la version mobile à côté. Vous pouvez utiliser cette version à toutes fins, car elle est open-source sous la licence MIT."
+        },
+        "question7": {
+            "question": "Quelle est la différence entre Windster et Tailwind UI ?",
+            "answer": "Bien que Windster et Tailwind UI soient tous deux construits pour s'intégrer avec Tailwind CSS, la principale différence réside dans la conception, les pages, les composants supplémentaires et les éléments d'interface utilisateur que Windster inclut. De plus, Windster est un projet qui est encore en développement et qui inclura plus tard des interfaces utilisateur pour les applications, le marketing et le commerce électronique."
+        },
+        "question8": {
+            "question": "Puis-je utiliser Windster dans des projets open-source ?",
+            "answer": "En général, il est accepté d'utiliser Windster dans des projets open-source, à condition qu'il ne s'agisse pas d'une bibliothèque d'interface utilisateur, d'un thème, d"
+        }
+    }
 }
