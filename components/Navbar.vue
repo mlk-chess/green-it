@@ -2,22 +2,19 @@
     <nav>
         <router-link to="/">Green CAR</router-link>
         <ul class="menu">
-            <li><router-link to="/">Green CAR</router-link></li>
             <li>
-                <router-link to="/product">Product</router-link>
+                <router-link to="/product">Green X</router-link>
             </li>
             <li><router-link to="/contact">Contact</router-link></li>
             <li>
                 <form>
                     <select id="locale-select" v-model="$i18n.locale"
-                        class="appearance-none bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+                        class="appearance-none bg-white border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
                         <option value="en" class="flex items-center">
-                            <nuxt-img src="@/assets/img/en.jpeg" alt="English flag" class="w-6 h-6 mr-2"></nuxt-img>
-                            English
+                            En
                         </option>
                         <option value="fr" class="flex items-center">
-                            <img src="@/assets/img/fr.png" alt="French flag" class="w-6 h-6 mr-2">
-                            Français
+                            Fr
                         </option>
                     </select>
                 </form>
@@ -69,9 +66,13 @@ nav a:hover {
         display: block;
     }
 }
-@media screen and (max-width: 961px) {
+@media screen and (max-width: 900px) {
     .menu-btn {
         display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+
     }
 
     nav {
@@ -80,16 +81,13 @@ nav a:hover {
 
     .menu {
         display: none;
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 50%;
+        height:0;
         width: 100%;
-        margin: 0;
+        padding: 0;
         background-color: #eee;
-        z-index: 2;
     }
     li>a{
         color: black;
@@ -104,11 +102,17 @@ onMounted(() => {
     const menu = document.querySelector(".menu");
 
     hamburger.addEventListener("click", function () {
-        console.log("ok")
+
         if (menu.style.display === "none") {
             menu.style.display = "flex";
         }
-        else menu.style.display = "none";
+        else {
+            menu.style.display = "none";
+        }
+
+        if (menu.style.display === "flex") {
+            menu.style.display = "none";
+        }
     })
 })
 
