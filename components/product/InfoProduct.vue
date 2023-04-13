@@ -1,5 +1,5 @@
 <template>
-    <section class="services">
+    <section class="services dark:bg-gray-900">
         <div class="title-info">
             <h2 class="text-5xl mt-3 font-black">Un concentré d'émotion</h2>
             <p class="p-5">Prenez place à bord de la PEUGEOT 208. Son poste de conduite de dernière génération et ses sièges avant dynamiques vous conduisent vers de nouvelles sensations. </p>
@@ -49,7 +49,6 @@
 }
 .services{
     padding: 2.5em;
-    background-color: #eee;
 }
 .infos, .infos-btn{
     display: flex;

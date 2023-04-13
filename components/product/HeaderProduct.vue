@@ -3,10 +3,10 @@
         <Navbar/>
         <div class="header-body">
             <div>
-                <h1 class="text-3xl">Green X</h1>
-                <p class="mt-2">Profitez et découvrez en exclusivité de notre nouveau modèle écologique.</p>
+                <h1 class="text-5xl">Green X</h1>
                 <div class="mt-5">
-                    <button class="btn-car">Découvrez le modèle Green X</button>
+                    <button class="btn-car">Découvrez l'offre</button>
+                    <button class="btn-car m-5">Réserver un essai</button>
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
 header {
     height: 100vh;
     min-height: 40em;
-    background-image: url("./assets/img/header.avif");
+    background-image: url("./assets/img/ok.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -53,13 +53,21 @@ header::before {
 }
 
 .btn-car {
-
-    padding: 1.3em 3em 1.3em 3em;
+    padding: 0.7em 1.7em 0.7em 1.7em;
     border: none;
     cursor: pointer;
     background-color: #eee;
     color: #000;
     font-family: 'Montserrat';
+}
 
+
+.btn-car:hover {
+    padding: 0.7em 1.7em 0.7em 1.7em;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #eee;
+    font-family: 'Montserrat';
 }
 </style>

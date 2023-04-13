@@ -51,15 +51,22 @@ header::before {
 .menu-btn {
     display: none;
 }
-
 .btn-car {
-
-    padding: 1.3em 3em 1.3em 3em;
+    padding: 0.7em 1.7em 0.7em 1.7em;
     border: none;
     cursor: pointer;
     background-color: #eee;
     color: #000;
     font-family: 'Montserrat';
+}
 
+
+.btn-car:hover {
+    padding: 0.7em 1.7em 0.7em 1.7em;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #eee;
+    font-family: 'Montserrat';
 }
 </style>

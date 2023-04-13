@@ -1,5 +1,5 @@
 <template>
-    <section class="services">
+    <section class="services bg-gray-100 dark:bg-gray-900">
         <h2 class="title">Nos services</h2>
         <div class="infos">
             <div class="info">
@@ -39,13 +39,11 @@
 <style scoped>
 
 .title{
-    border-bottom: 1px solid #000;
     padding-bottom: 0.5em;
    
 }
 .services{
     padding: 2.5em;
-    background-color: #eee;
 }
 .infos, .infos-btn{
     display: flex;
