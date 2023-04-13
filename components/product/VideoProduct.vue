@@ -5,7 +5,7 @@
         <section class="bg-gray-100 dark:bg-gray-950">
             <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
               <div class="video">
-                    <video class="rounded-lg" controls>
+                    <video class="rounded-lg" controls muted>
                         <source src="/video/video-car.mp4" type="video/mp4">
                         Votre navigateur ne supporte pas la lecture de cette vidéo.
                     </video>
