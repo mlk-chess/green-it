@@ -1,29 +1,29 @@
 <template>
     <section class="services bg-gray-100 dark:bg-gray-900 dark:text-white">
-        <h2 class="title">{{$t("i12")}}</h2>
+        <h2 class="title text-4xl dark:text-white text-center">{{$t("i12")}}</h2>
         <div class="infos">
             <div class="info">
                 <div class="svg">
                     <img src="@/assets/img/headset.svg" alt="icone d'accompagnement">
                 </div>
-                <h3>{{$t("i13")}}</h3>
-                <p>{{ $t("i14") }}</p>
+                <h3 class="text-2xl font-bold">{{$t("i13")}}</h3>
+                <p class="text-sm text-gray-400">{{ $t("i14") }}</p>
             </div>
 
             <div class="info">
                <div class="svg">
                     <img src="@/assets/img/truck.svg" alt="icone de livrison">
                 </div>
-                <h3>{{$t("i15")}}</h3>
-                <p>{{$t("i16")}}</p>
+                <h3 class="text-2xl font-bold">{{$t("i15")}}</h3>
+                <p class="text-sm text-gray-400">{{$t("i16")}}</p>
             </div>
 
             <div class="info">
                 <div class="svg">
                     <img src="@/assets/img/sale.svg" alt="icone d'offre">
                 </div>
-                <h3>{{$t("i17")}}</h3>
-                <p>{{$t("i18")}}</p>
+                <h3 class="text-2xl font-bold">{{$t("i17")}}</h3>
+                <p class="text-sm text-gray-400">{{$t("i18")}}</p>
             </div>
         </div>
 
@@ -77,7 +77,7 @@
 
 
 .btn{
-    padding: 1.3em 3em 1.3em 3em;
+    padding: 0.7em 1.7em 0.7em 1.7em;
     border: none;
     cursor: pointer;
     background-color: #0074e8;

@@ -4,8 +4,7 @@
             <div>
                 <h1 class="text-5xl">Green X</h1>
                 <div class="mt-5">
-                    <button class="btn-car">{{ $t("discover") }}</button>
-                    <button class="btn-car m-5">{{ $t("book") }}</button>
+                    <router-link to="/green-x"><button class="btn-car">{{ $t("discover") }}</button></router-link>
                 </div>
             </div>
         </div>

@@ -22,13 +22,13 @@
                             </dl>
                         </div>
                 </div>
-                <div class="mt-4 md:mt-0 h-100 overflow-hidden overflow-y-auto border p-3 text-center ">
-                   <h1 class="text-4xl font-bold">Green X</h1>
+                <div class="mt-4 md:mt-0 h-100 overflow-hidden overflow-y-auto p-3 text-center ">
+                   <h1 class="text-4xl font-bold dark:text-white">Green X</h1>
                 
 
 
                      <div class="details">
-                        <h3 class="text-2xl font-black text-jutify">Points clés</h3>
+                        <h3 class="text-2xl font-black text-jutify dark:text-white">Points clés</h3>
                         <div class="mt-5 text-gray-500">
                             <li>Jantes Induction 20"</li>
                             <li>Intérieur entièrement en noir Premium</li>
@@ -38,13 +38,13 @@
                     </div>
 
                     <div class="details">
-                        <h3 class="text-2xl font-black">Détails du véhicule</h3>
+                        <h3 class="text-2xl font-black dark:text-white">Détails du véhicule</h3>
                         <div class="mt-4">
-                            <p>Pays d'immatriculation</p>
+                            <p class="dark:text-white">Pays d'immatriculation</p>
                             <span class="text-gray-500">FR</span>
                         </div>
                         <div class="mt-4">
-                            <p>Date de première mise en circulation</p>
+                            <p class="dark:text-white">Date de première mise en circulation</p>
                             <span class="text-gray-500">17 nov. 2022</span>
                         </div>
                     </div>

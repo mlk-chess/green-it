@@ -1,6 +1,6 @@
 <template>
     <section class="services bg-gray-100 dark:bg-gray-900">
-        <h2 class="title">{{ $t("i3") }}</h2>
+        <h2 class="title text-4xl dark:text-white text-center">{{ $t("i3") }}</h2>
         <div class="products">
             <div class="m-2 max-w-sm rounded-lg">
                   <div style="min-height:15rem">
