@@ -30,7 +30,6 @@
     "traveldesc": "Avec une autonomie estimée pouvant atteindre 634 kilomètres et un accès au réseau de recharge rapide le plus vaste et le plus puissant au monde, vous passerez moins de temps à recharger et plus de temps sur la route.",
     "buy": "Acheter",
     "contactus": "Nous contacter",
-    "formcontact1": "Vous avez un problème technique ? Vous souhaitez nous faire part de vos commentaires sur une fonctionnalité bêta ? Vous avez besoin de détails sur notre plan Business ? Faites-le nous savoir.",
     "youremail": "Votre adresse e-mail",
     "subject": "Objet",
     "sendmsg": "Envoyer le message",
@@ -38,36 +37,36 @@
     "faq": "Questions fréquemment posées",
     "questions": {
         "question1": {
-            "question": "Que voulez-vous dire par 'Figma assets' ?",
-            "answer": "Vous aurez accès au téléchargement du projet Figma complet, comprenant toutes les pages, les composants, les pages adaptatives, ainsi que les icônes, illustrations et images incluses dans les écrans."
+            "question": "MON GARAGE PEUT-IL M'ACCUEILLIR EN TOUTE SÉCURITÉ ?",
+            "answer": "Oui, la sécurité de nos clients et de nos équipes est notre priorité. Nous avons pris avec notre réseau des mesures sanitaires renforcées et établi des protocoles stricts afin de vous accueillir ou d’intervenir sur votre véhicule en toute sécurité."
         },
         "question2": {
-            "question": "Que signifie exactement 'accès à vie' ?",
-            "answer": "Une fois que vous avez acheté l'un ou les deux packages de conception et de code, vous aurez accès gratuitement à toutes les futures mises à jour basées sur la feuille de route."
+            "question": "QUELLES SONT LES OPÉRATIONS QUE JE PEUX RÉALISER EN ATELIER ?",
+            "answer": "Toutes. A chaque intervention ou entretien  vous bénéficiez du professionnalisme de nos équipes et de 20 points de contrôle."
         },
         "question3": {
-            "question": "Comment fonctionne le support ?",
-            "answer": "Nous sommes conscients de l'importance d'un support bien qualifié, c'est pourquoi nous avons décidé que le support ne sera fourni que par les auteurs qui ont réellement travaillé sur ce projet. N'hésitez pas à nous contacter et nous vous aiderons dès que possible."
+            "question": "QUELS SONT LES SERVICES DISPONIBLES ?",
+            "answer": "Tous. Nos équipes et conseillers commerciaux vous accueillent pour vous faire découvrir ou essayer notre gamme de véhicules et nos nouveautés dans le respect des gestes barrières et distances sanitaires.N'hésitez pas à utiliser tous les moyens de contact mis à votre disposition pour nous adresser vos demandes ou à prendre rendez-vous pour un essai  en consultant nos offres du moment."
         },
         "question4": {
-            "question": "Je veux construire plus d'un projet. Est-ce autorisé ?",
-            "answer": "Vous pouvez utiliser Windster pour un nombre illimité de projets, qu'il s'agisse d'un site Web personnel, d'une application SaaS ou d'un site Web pour un client. Tant que vous ne construisez pas un produit qui rivalise directement avec Windster en tant que kit d'interface utilisateur, thème ou modèle, c'est bon. Pour plus d'informations, consultez la licence."
+            "question": "COMMENT SE DÉROULE UN ESSAI ?",
+            "answer": "Les documents nécessaires, comme la copie de votre permis de conduire, devront nous être transmis au préalable afin d'éviter tout contact physique. Le véhicule concerné est resté sans contact pendant 3 heures  et fait l’objet d’une désinfection complète. Avant l'essai, le kit de protection est retiré, le port du masque est obligatoire à l'intérieur du véhicule. Le collaborateur vous invitera à vous laver les mains.Seuls le client et le collaborateur peuvent monter dans le véhicule. Le client monte à l’avant et conduit le véhicule, le collaborateur monte à l’arrière droit."
         },
         "question5": {
-            "question": "Que comprend les 'mises à jour gratuites' ?",
-            "answer": "Les mises à jour gratuites qui seront fournies sont basées sur la feuille de route que nous avons établie pour ce projet. Il est également possible que nous fournissions des mises à jour supplémentaires en dehors de la feuille de route."
+            "question": "COMMENT SE DÉROULE LA LIVRAISON DE MON VÉHICULE ?",
+            "answer": "Le nombre de livraison quotidienne est limité afin de réguler la fréquentation en point de vente. Vous serez le seul client dans l’espace de livraison. Les distances de sécurité  seront respectées. Votre interlocuteur sera équipé d'un masque. Les documents nécessaires préparés à l'avance et nous vous demandons de vous munir de votre propre stylo.Votre véhicule aura été préparé et désinfecté au minimum 24H avant la remise des clefs. Certains points de vente peuvent vous proposer  de venir livrer votre véhicule à domicile, gratuitement et sans contact. Dans ce cadre, votre véhicule sera à nouveau désinfecté une fois sur place."
         },
         "question6": {
-            "question": "Que comprend la version gratuite ?",
-            "answer": "La version gratuite de Windster comprend des directives de style minimal, des variantes de composants et une page de tableau de bord avec la version mobile à côté. Vous pouvez utiliser cette version à toutes fins, car elle est open-source sous la licence MIT."
+            "question": "EST-CE QU'UN ESSAI M'ENGAGE À ACHETER ?",
+            "answer": "Un essai ne vous engage absolument pas à l'achat d'un véhicule."
         },
         "question7": {
-            "question": "Quelle est la différence entre Windster et Tailwind UI ?",
-            "answer": "Bien que Windster et Tailwind UI soient tous deux construits pour s'intégrer avec Tailwind CSS, la principale différence réside dans la conception, les pages, les composants supplémentaires et les éléments d'interface utilisateur que Windster inclut. De plus, Windster est un projet qui est encore en développement et qui inclura plus tard des interfaces utilisateur pour les applications, le marketing et le commerce électronique."
+            "question": "UNE VOITURE HYBRIDE PEUT-ELLE ROULER SANS ESSENCE ?",
+            "answer": "Non, ce n’est pas possible. Une voiture hybride continue de rouler même quand sa batterie de traction est déchargée, grâce au moteur thermique."
         },
         "question8": {
-            "question": "Puis-je utiliser Windster dans des projets open-source ?",
-            "answer": "En général, il est accepté d'utiliser Windster dans des projets open-source, à condition qu'il ne s'agisse pas d'une bibliothèque d'interface utilisateur, d'un thème, d"
+            "question": "J'AI DES QUESTIONS CONCERNANT MON CONTRAT DE FINANCEMENT/LOCATION ?",
+            "answer": "Toutes les informations de votre contrat sont disponibles sur votre Espace Client."
         }
     },
     "infop1": "Un concentré d'émotion",
