@@ -9,15 +9,15 @@
                             <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
                                 <div class="flex flex-col items-center justify-center">
                                     <dt class="mb-2 text-xl md:text-3xl">430km</dt>
-                                    <dd class="font-light text-gray-500 dark:text-gray-400">Autonomie</dd>
+                                    <dd class="font-light text-gray-500 dark:text-gray-200">Autonomie</dd>
                                 </div>
                                 <div class="flex flex-col items-center justify-center">
                                     <dt class="mb-2 text-xl md:text-3xl">217km/h</dt>
-                                    <dd class="font-light text-gray-500 dark:text-gray-400">Vitesse maximale</dd>
+                                    <dd class="font-light text-gray-500 dark:text-gray-200">Vitesse maximale</dd>
                                 </div>
                                 <div class="flex flex-col items-center justify-center">
                                     <dt class="mb-2 text-xl md:text-3xl">6,9s</dt>
-                                    <dd class="font-light text-gray-500 dark:text-gray-400">0 à 100 km/h</dd>
+                                    <dd class="font-light text-gray-500 dark:text-gray-200">0 à 100 km/h</dd>
                                 </div>
                             </dl>
                         </div>
@@ -29,11 +29,13 @@
 
                      <div class="details">
                         <h3 class="text-2xl font-black text-jutify dark:text-white">Points clés</h3>
-                        <div class="mt-5 text-gray-500">
-                            <li>Jantes Induction 20"</li>
-                            <li>Intérieur entièrement en noir Premium</li>
-                            <li>Habitacle 5 sièges</li>
-                            <li>Capacité de conduite entièrement autonome</li>
+                        <div class="mt-5 text-gray-500 dark:text-gray-200">
+                            <ul>
+                                <li>Jantes Induction 20"</li>
+                                <li>Intérieur entièrement en noir Premium</li>
+                                <li>Habitacle 5 sièges</li>
+                                <li>Capacité de conduite entièrement autonome</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -41,11 +43,11 @@
                         <h3 class="text-2xl font-black dark:text-white">Détails du véhicule</h3>
                         <div class="mt-4">
                             <p class="dark:text-white">Pays d'immatriculation</p>
-                            <span class="text-gray-500">FR</span>
+                            <span class="text-gray-500 dark:text-gray-200">FR</span>
                         </div>
                         <div class="mt-4">
                             <p class="dark:text-white">Date de première mise en circulation</p>
-                            <span class="text-gray-500">17 nov. 2022</span>
+                            <span class="text-gray-500 dark:text-gray-200">17 nov. 2022</span>
                         </div>
                     </div>
 
