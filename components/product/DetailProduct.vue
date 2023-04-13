@@ -25,29 +25,3 @@
         </div>
     </section>
 </template>
-
-<script setup>
-const callouts = [
-    {
-        name: 'Son immersif',
-        description: 'Un système audio de 960 watts à 22 haut-parleurs avec Réduction active du bruit de la route offre une écoute immersive et un son de qualité studio.',
-        imageSrc: '/car-interior1.jpeg',
-        imageAlt: 'car interior 1 immersive sound',
-        href: '#',
-    },
-    {
-        name: 'Restez connecté',
-        description: 'Connectez vos appareils instantanément grâce au Bluetooth supportant plusieurs connexions simultanées, ou rechargez rapidement vos appareils en tirant parti de la recharge sans fil et USB-C 36 W.',
-        imageSrc: '/car-interior2.jpeg',
-        imageAlt: 'Car interior 2 devices',
-        href: '#',
-    },
-    {
-        name: 'Style élégant',
-        description: 'Une ligne emblématique combinées à d\'élégantes proportions modernisées.',
-        imageSrc: '/car-interior3.jpeg',
-        imageAlt: 'Beautiful car interior 3',
-        href: '#',
-    },
-]
-</script>

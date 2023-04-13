@@ -1,8 +1,8 @@
 <template>
-    <section class="services dark:bg-gray-900">
+    <section class="services dark:bg-gray-900 dark:text-white">
         <div class="title-info">
-            <h2 class="text-5xl mt-3 font-black">Un concentré d'émotion</h2>
-            <p class="p-5">Prenez place à bord de la Green X. Son poste de conduite de dernière génération et ses sièges avant dynamiques vous conduisent vers de nouvelles sensations. </p>
+            <h2 class="text-5xl mt-3 font-black">{{ $t("infop1") }}</h2>
+            <p class="p-5 dark:text-gray-400">{{ $t("infop2") }}</p>
         </div>
         <div class="infos">
             <div class="info">
@@ -16,14 +16,14 @@
                <div class="svg">
                     <img src="@/assets/img/laptop.svg" alt="icone de numérique 3D">
                 </div>
-                <h3 class="font-bold">Combiné numérique 3D</h3>
+                <h3 class="font-bold">{{ $t("infop3") }}</h3>
             </div>
 
             <div class="info">
                 <div class="svg">
                     <img src="@/assets/img/car-seat.svg" alt="icone sièges dynamiques">
                 </div>
-                <h3 class="font-bold">Sièges avant dynamiques</h3>
+                <h3 class="font-bold">{{ $t("infop4") }}</h3>
             </div>
         </div>
     </section>
