@@ -2,11 +2,9 @@
     <section>
         <div class="header-body">
             <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, perferendis est, dolore odio autem
-                    praesentium ipsum, quia commodi unde dolor laborum voluptate dignissimos aut quas amet eos aliquid.
-                    Iure, ad. </p>
+                <p>Ne manquez plus rien et abonnez-vous à notre Newsletter afin de rester avertis de toutes nos offres promotionnelles. </p>
                 <div class="mt-5 btn-block">
-                    <button class="btn-car">Découvrez le modèle Green X</button>
+                    <button class="btn-car">Abonnez-vous</button>
                 </div>
             </div>
         </div>
