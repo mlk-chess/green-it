@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Navbar />
         <HeaderProduct />
         <DetailProduct />
         <InfoProduct />
@@ -18,12 +17,5 @@ import Navbar from '../components/Navbar.vue';
 </script>
 
 <style scoped>
-
-nav{
-    position: absolute;
-    top: 0;
-    z-index: 2;
-    width: 100%;
-}
 
 </style>
