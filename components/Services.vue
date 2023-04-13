@@ -4,7 +4,7 @@
         <div class="infos">
             <div class="info">
                 <div class="svg">
-                    <img src="@/assets/img/headset.svg" alt="icone d'accompagnement">
+                    <img src="@/assets/img/headset.svg" lazy="loading" alt="icone d'accompagnement">
                 </div>
                 <h3 class="text-2xl font-bold">{{$t("i13")}}</h3>
                 <p class="text-sm text-gray-400">{{ $t("i14") }}</p>
@@ -12,7 +12,7 @@
 
             <div class="info">
                <div class="svg">
-                    <img src="@/assets/img/truck.svg" alt="icone de livrison">
+                    <img src="@/assets/img/truck.svg" lazy="loading" alt="icone de livrison">
                 </div>
                 <h3 class="text-2xl font-bold">{{$t("i15")}}</h3>
                 <p class="text-sm text-gray-400">{{$t("i16")}}</p>
@@ -20,7 +20,7 @@
 
             <div class="info">
                 <div class="svg">
-                    <img src="@/assets/img/sale.svg" alt="icone d'offre">
+                    <img src="@/assets/img/sale.svg" lazy="loading" alt="icone d'offre">
                 </div>
                 <h3 class="text-2xl font-bold">{{$t("i17")}}</h3>
                 <p class="text-sm text-gray-400">{{$t("i18")}}</p>

@@ -15,7 +15,7 @@
   </select>
 
   <span class="icon" @click="myFunction">
-    <img src="@/assets/img/burger.svg">
+    <img src="@/assets/img/burger.svg" lazy="loading" alt="Menu de navigation">
   </span>
 </div>
 </template>
