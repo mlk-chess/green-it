@@ -69,5 +69,11 @@
             "question": "Puis-je utiliser Windster dans des projets open-source ?",
             "answer": "En général, il est accepté d'utiliser Windster dans des projets open-source, à condition qu'il ne s'agisse pas d'une bibliothèque d'interface utilisateur, d'un thème, d"
         }
-    }
+    },
+    "infop1": "Un concentré d'émotion",
+    "infop2": "Prenez place à bord de la Green X. Son poste de conduite de dernière génération et ses sièges avant dynamiques vous conduisent vers de nouvelles sensations.",
+    "infop3": "Combiné numérique 3D",
+    "infop4": "Sièges avant dynamiques",
+    "discover": "Découvrez l'offre",
+    "book" : "Réserver un essai"
 }

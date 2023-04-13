@@ -69,5 +69,11 @@
             "question": "Can I use Windster in open-source projects?",
             "answer": "Generally, it is accepted to use Windster in open-source projects, as long as it is not a UI library, a theme, a template, a page-builder that would be considered as an alternative to Windster itself. With that being said, feel free to use this design kit for your open-source projects. Find out more information by reading the license."
         }
-    }
+    },
+    "infop1": "A concentration of emotion",
+    "infop2": "Take your place aboard the Green X. Its latest-generation driving position and dynamic front seats take you to new sensations.",
+    "infop3": "3D digital combination",
+    "infop4": "Dynamic front seats",
+    "discover": "Discover the offer",
+    "book": "Book a test drive"
 }
