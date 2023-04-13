@@ -4,7 +4,7 @@
             <div>
                 <p>{{ $t("i21") }} </p>
                 <div class="mt-5 btn-block">
-                    <button class="btn-car">{{ $t("i2") }}</button>
+                    <button class="btn-car">{{ $t("i22") }}</button>
                 </div>
             </div>
         </div>
