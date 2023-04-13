@@ -4,7 +4,7 @@
             <div>
                 <p>{{ $t("i21") }} </p>
                 <div class="mt-5 btn-block">
-                    <button class="btn-car">{{ $t("i2") }}</button>
+                    <button class="btn-car">{{ $t("i22") }}</button>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@ section {
 }
 
 .btn-car {
-    padding: 1.3em 3em 1.3em 3em;
+    padding: 0.7em 1.7em 0.7em 1.7em;
     border: none;
     cursor: pointer;
     background-color: #eee;

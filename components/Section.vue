@@ -48,7 +48,7 @@ section::before {
 }
 
 .btn-car {
-    padding: 1.3em 3em 1.3em 3em;
+    padding: 0.7em 1.7em 0.7em 1.7em;
     border: none;
     cursor: pointer;
     background-color: #eee;

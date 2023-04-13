@@ -30,7 +30,6 @@
     "traveldesc": "With an estimated range of up to 634 kilometers and access to the world's largest and most powerful fast-charging network, you'll spend less time charging and more time on the road.",
     "buy": "Buy",
     "contactus": "Contact Us",
-    "formcontact1": "Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.",
     "youremail": "Your email",
     "subject": "Subject",
     "sendmsg": "Send message",
@@ -38,36 +37,36 @@
     "faq": "Frequently asked questions",
     "questions": {
         "question1": {
-            "question": "What do you mean by \"Figma assets\"?",
-            "answer": "You will have access to download the full Figma project including all of the pages, the components, responsive pages, and also the icons, illustrations, and images included in the screens."
+            "question": "CAN MY GARAGE WELCOME ME SAFELY?",
+            "answer": "Yes, the safety of our customers and our teams is our priority. We have taken reinforced sanitary measures with our network and established strict protocols in order to welcome you or to intervene on your vehicle in complete safety."
         },
         "question2": {
-            "question": "What does \"lifetime access\" exactly mean?",
-            "answer": "Once you have purchased either the design, code, or both packages, you will have access to all of the future updates based on the roadmap, free of charge."
+            "question": "WHAT ARE THE OPERATIONS THAT I CAN PERFORM IN THE WORKSHOP?",
+            "answer": "All. With each intervention or interview, you benefit from the professionalism of our teams and 20 checkpoints."
         },
         "question3": {
-            "question": "How does support work?",
-            "answer": "We're aware of the importance of well qualified support, that is why we decided that support will only be provided by the authors that actually worked on this project. Feel free to contact us and we'll help you out as soon as we can."
+            "question": "WHAT SERVICES ARE AVAILABLE?",
+            "answer": "All. Our teams and sales advisers welcome you to help you discover or try out our range of vehicles and our new products while respecting barrier gestures and sanitary distances.Do not hesitate to use all the means of contact made available to you to send us your requests or to make an appointment for a trial by consulting our current offers."
         },
         "question4": {
-            "question": "I want to build more than one project. Is that allowed?",
-            "answer": "You can use Windster for an unlimited amount of projects, whether it's a personal website, a SaaS app, or a website for a client. As long as you don't build a product that will directly compete with Windster either as a UI kit, theme, or template, it's fine. Find out more information by reading the license."
+            "question": "HOW DOES A TRIAL CONDUCT?",
+            "answer": "The necessary documents, such as a copy of your driving licence, must be sent to us beforehand in order to avoid any physical contact.The vehicle concerned remained without contact for 3 hours and was completely disinfected. Before the test, the protective kit is removed, wearing a mask is compulsory inside the vehicle. The employee will ask you to wash your hands.Only the customer and the employee can get into the vehicle. The customer gets in the front and drives the vehicle, the employee gets in the right rear."
         },
         "question5": {
-            "question": "What does \"free updates\" include?",
-            "answer": "The free updates that will be provided is based on the roadmap that we have laid out for this project. It is also possible that we will provide extra updates outside of the roadmap as well."
+            "question": "HOW DOES THE DELIVERY OF MY VEHICLE HAPPEN?",
+            "answer": "The number of daily deliveries is limited in order to regulate attendance at the point of sale. You will be the only customer in the delivery space. Safety distances will be respected. Your interlocutor will be equipped with a mask. Necessary documents prepared in advance and we ask that you bring your own pen.Your vehicle will have been prepared and disinfected at least 24 hours before the keys are handed over.Some points of sale may offer to deliver your vehicle to your home, free of charge and without contact. In this context, your vehicle will be disinfected again once on site."
         },
         "question6": {
-            "question": "What does the free version include?",
-            "answer": "The free version of Windster includes a minimal style guidelines, component variants, and a dashboard page with the mobile version alongside it. You can use this version for any purposes, because it is open-source under the MIT license."
+            "question": "DOES A TRIAL COMMIT ME TO BUY?",
+            "answer": "A test drive absolutely does not commit you to the purchase of a vehicle."
         },
         "question7": {
-            "question": "What is the difference between Windster and Tailwind UI?",
-            "answer": "Although both Windster and Tailwind UI are built for integration with Tailwind CSS, the main difference is in the design, the pages, the extra components and UI elements that Windster includes. Additionally, Windster is a project that is still in development, and later it will include both the application, marketing, and e-commerce UI interfaces."
+            "question": "CAN A HYBRID CAR RUN WITHOUT PETROL?",
+            "answer": "No, that's not possible.A hybrid car continues to drive even when its traction battery is discharged, thanks to the internal combustion engine."
         },
         "question8": {
-            "question": "Can I use Windster in open-source projects?",
-            "answer": "Generally, it is accepted to use Windster in open-source projects, as long as it is not a UI library, a theme, a template, a page-builder that would be considered as an alternative to Windster itself. With that being said, feel free to use this design kit for your open-source projects. Find out more information by reading the license."
+            "question": "I HAVE QUESTIONS CONCERNING MY FINANCING/RENTAL AGREEMENT?",
+            "answer": "All the information of your contract is available on your Customer Area."
         }
     },
     "infop1": "A concentration of emotion",
@@ -96,5 +95,6 @@
     "i18": "Don't miss any offers for all our models.",
     "i19": "Check the stocks",
     "i20": "Configure and order",
-    "i21": "Don't miss out and subscribe to our Newsletter to stay informed about all our promotional offers."
+    "i21": "Don't miss out and subscribe to our Newsletter to stay informed about all our promotional offers.",
+    "i22": "Subscribe"
 }
