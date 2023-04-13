@@ -1,10 +1,8 @@
 <template>
     <header>
-        <Navbar/>
         <div class="header-body">
             <div>
-                <h1 class="text-3xl">Green X</h1>
-                <p class="mt-2">{{ $t("i1") }}</p>
+                <h1 class="text-4xl font-bold text-center">Green X</h1>
                 <div class="mt-5">
                     <button class="btn-car">{{ $t("i2") }}</button>
                 </div>
@@ -29,18 +27,19 @@ header {
 header::before {
     content: '';
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100%;
 }
 
 .header-body {
     padding: 2.5em;
+    margin-top: 5rem;
     height: 100%;
     display: flex;
-    align-items: center;
+    justify-content: center;
     z-index: 1;
-    color: #eee;
+    color: #000;
 }
 
 .header-body p {

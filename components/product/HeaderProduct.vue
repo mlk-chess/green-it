@@ -1,6 +1,5 @@
 <template>
     <header>
-        <Navbar/>
         <div class="header-body">
             <div>
                 <h1 class="text-5xl">Green X</h1>
