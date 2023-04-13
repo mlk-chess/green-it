@@ -7,21 +7,21 @@
         <div class="infos">
             <div class="info">
                 <div class="svg">
-                    <img src="@/assets/img/eye.svg" alt="icone du produit 3D">
+                    <img src="@/assets/img/eye.svg" lazy="loading" alt="icone du produit 3D">
                 </div>
                 <h3 class="font-bold">Green X 3D</h3>
             </div>
 
             <div class="info">
                <div class="svg">
-                    <img src="@/assets/img/laptop.svg" alt="icone de numérique 3D">
+                    <img src="@/assets/img/laptop.svg" lazy="loading" alt="icone de numérique 3D">
                 </div>
                 <h3 class="font-bold">{{ $t("infop3") }}</h3>
             </div>
 
             <div class="info">
                 <div class="svg">
-                    <img src="@/assets/img/car-seat.svg" alt="icone sièges dynamiques">
+                    <img src="@/assets/img/car-seat.svg" lazy="loading" alt="icone sièges dynamiques">
                 </div>
                 <h3 class="font-bold">{{ $t("infop4") }}</h3>
             </div>
