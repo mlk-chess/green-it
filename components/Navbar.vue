@@ -1,7 +1,7 @@
 <template>
 <div class="topnav" id="myTopnav">
-  <span class="link active"><router-link to="/">GREEN CAR</router-link></span>
-  <span class="link"><router-link to="/product">Green X</router-link></span>
+  <router-link to="/"><span class="link active">GREEN CAR</span></router-link>
+  <router-link to="/product"><span class="link">Green X</span></router-link>
   <span class="link"><router-link to="/contact">Contact</router-link></span>
 
   <select id="locale-select" v-model="$i18n.locale"
