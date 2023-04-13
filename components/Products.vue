@@ -6,7 +6,7 @@
                   <div style="min-height:15rem">
                 <nuxt-img format="avif" loading=”lazy” class="rounded-t-lg" src="/featured3.png" alt="Présentation de la voiture Green X"></nuxt-img></div>
                 <div class="p-5">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN X</h5>
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN X</h3>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ $t("i4") }}</p>
                      <button class="btn-car"><router-link to="/product">{{ $t("i5") }}</router-link></button>
                 </div>
@@ -17,7 +17,7 @@
                 <nuxt-img format="avif" loading=”lazy” class="rounded-t-lg img" src="/featured4.png" alt="Présentation de la voiture Green Y"></nuxt-img>
                 </div>
                 <div class="p-5">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN Y</h5>
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN Y</h3>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ $t("i4") }}</p>
                     <button class="btn-car"><router-link to="/product">{{ $t("i5") }}</router-link></button>
                 </div>
@@ -26,7 +26,7 @@
                   <div style="min-height:15rem">
                 <nuxt-img format="avif" loading=”lazy” class="rounded-t-lg" src="/featured2.png" alt="Présentation de la voiture Green S"></nuxt-img></div>
                 <div class="p-5">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN S</h5>
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">GREEN S</h3>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ $t("i4") }}</p>
                     <button class="btn-car"><router-link to="/product">{{ $t("i5") }}</router-link></button>
                   
