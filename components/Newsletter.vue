@@ -4,7 +4,7 @@
             <div>
                 <p>Ne manquez plus rien et abonnez-vous à notre Newsletter afin de rester avertis de toutes nos offres promotionnelles. </p>
                 <div class="mt-5 btn-block">
-                    <button class="btn-car">Abonnez-vous</button>
+                    <button class="btn-car">{{ $t("i2") }}</button>
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@ section {
     font-family: 'Montserrat';
 }
 
-.btn-block{
+.btn-block {
     display: flex;
     justify-content: center;
 }
