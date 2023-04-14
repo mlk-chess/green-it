@@ -5,21 +5,21 @@
         {
             "name": "Immersive Sound",
             "description": "A 960-watt, 22-speaker audio system with Road Noise Active Noise Cancellation provides an immersive listening experience and studio-quality sound.",
-            "imageSrc": "/car-interior1.jpeg",
+            "imageSrc": "/car-interior1.webp",
             "imageAlt": "car interior 1 immersive sound",
             "href": "#"
         },
         {
             "name": "Stay Connected",
             "description": "Instantly connect your devices with Bluetooth supporting multiple simultaneous connections, or quickly charge your devices by taking advantage of the 36W wireless and USB-C charging.",
-            "imageSrc": "/car-interior2.jpeg",
+            "imageSrc": "/car-interior2.webp",
             "imageAlt": "Car interior 2 devices",
             "href": "#"
         },
         {
             "name": "Elegant Style",
             "description": "Iconic lines combined with elegant modern proportions.",
-            "imageSrc": "/car-interior3.jpeg",
+            "imageSrc": "/car-interior3.webp",
             "imageAlt": "Beautiful car interior 3",
             "href": "#"
         }

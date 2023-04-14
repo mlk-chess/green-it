@@ -15,7 +15,7 @@
 <style scoped>
 section {
     min-height: 25em;
-    background-image: url("./assets/img/test.avif");
+    background-image: url("/car-1.webp");
     background-size: cover;
     background-position: center;
     display: flex;

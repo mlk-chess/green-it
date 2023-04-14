@@ -17,7 +17,7 @@
 header {
     height: 100vh;
     min-height: 40em;
-    background-image: url("./assets/img/ok.jpg");
+    background-image: url("/header-product.webp");
     background-size: cover;
     display: flex;
     flex-direction: column;

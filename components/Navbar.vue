@@ -1,5 +1,5 @@
 <template>
-<div class="topnav" id="myTopnav">
+<div class="topnav bg-gray-900" id="myTopnav">
   <router-link to="/"><span class="link active">GREEN CAR</span></router-link>
   <router-link to="/product"><span class="link">Green X</span></router-link>
   <router-link to="/contact"><span class="link">Contact</span></router-link>
@@ -25,7 +25,6 @@
 
 .topnav {
   overflow: hidden;
-  background-color: rgba(0, 0, 0,0.9);
 }
 
 .topnav span.link {

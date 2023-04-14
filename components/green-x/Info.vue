@@ -4,7 +4,7 @@
         <section class="bg-gray-100 dark:bg-gray-950">
             <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
                 <div class="">
-                    <nuxt-img format="avif" loading=”lazy” src="./featured3.png" alt="Caractéristiques de la Green X"></nuxt-img>
+                    <nuxt-img format="avif" loading=”lazy” src="./featured3.webp" alt="Caractéristiques de la Green X"></nuxt-img>
                     <div class="px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
                             <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
                                 <div class="flex flex-col items-center justify-center">

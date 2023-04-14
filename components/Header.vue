@@ -17,7 +17,7 @@
 header {
     height: 100vh;
     min-height: 40em;
-    background-image: url("./assets/img/header.avif");
+    background-image: url("/header.webp");
     background-size: cover;
     display: flex;
     flex-direction: column;
