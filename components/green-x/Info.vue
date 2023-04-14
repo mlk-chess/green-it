@@ -28,7 +28,7 @@
 
 
                      <div class="details">
-                        <h3 class="text-2xl font-black text-jutify dark:text-white">Points clés</h3>
+                        <span class="text-2xl font-black text-jutify dark:text-white">Points clés</span>
                         <div class="mt-5 text-gray-500 dark:text-gray-200">
                             <ul>
                                 <li>Jantes Induction 20"</li>
@@ -40,7 +40,7 @@
                     </div>
 
                     <div class="details">
-                        <h3 class="text-2xl font-black dark:text-white">Détails du véhicule</h3>
+                        <span class="text-2xl font-black dark:text-white">Détails du véhicule</span>
                         <div class="mt-4">
                             <p class="dark:text-white">Pays d'immatriculation</p>
                             <span class="text-gray-500 dark:text-gray-200">FR</span>
